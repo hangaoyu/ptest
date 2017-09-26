@@ -16,9 +16,7 @@
         "psr-4": {
             "Hgy\\PackageTest\\": "src/"
         },
-        "files": [
-            "src/helpers.php"
-        ]
+       
     }
 }
 
