@@ -11,7 +11,7 @@ $attributes = [
 ];
 
 Route::group($attributes, function ($router) {
-    $router->get('well', 'TestController@index');
+    $router->get('index', 'TestController@index');
     $router->get('view',function (){
        return view('packages::test');
     });

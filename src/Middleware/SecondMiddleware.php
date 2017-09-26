@@ -17,7 +17,7 @@ class SecondMiddleware
      */
     public function handle($request, Closure $next)
     {
-        dump('second');
+        dump('second middleware');
         $response = $next($request);
 
 

@@ -17,6 +17,13 @@
             "Hgy\\PackageTest\\": "src/"
         }
        
-    }
+    },
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Hgy\\PackageTest\\Providers\\TestServiceProvider"
+            ]
+
+        }
 }
 
