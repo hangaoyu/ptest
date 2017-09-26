@@ -1,0 +1,24 @@
+{
+    "name": "hangaoyu/ptest",
+    "authors": [
+        {
+            "name": "GY",
+            "email": "330336317@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hgy\\PackageTest\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
+
