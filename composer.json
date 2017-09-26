@@ -19,11 +19,11 @@
        
     },
      "extra": {
-        "laravel": {
-            "providers": [
-                "Hgy\\PackageTest\\Providers\\TestServiceProvider"
-            ]
-
-        }
+         "laravel": {
+             "providers": [
+                 "Hgy\\PackageTest\\Providers\\TestServiceProvider"
+             ]
+         }
+     }
 }
 
